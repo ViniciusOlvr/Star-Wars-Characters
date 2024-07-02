@@ -346,3 +346,81 @@ footer{
     font-weight: lighter;
     color: gold;
 }
+
+@media (max-width: 510px) {
+    .social-media{
+        display: flex;
+        justify-content:space-around;
+        
+    
+    }
+
+    .modal-content {
+        width: 250px;
+        height: 350px;
+        background-color: #0d0d0d;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 30px 10px;
+        align-items: center;
+    }
+
+    .character-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-position: 50% 10%;
+        background-size: cover;
+    
+    }
+
+    h2{
+        font-family: 'Star Wars', sans-serif;
+        margin: 10px 20px ;
+        font-size: 10px;
+
+    }
+
+    .character-details {
+        font-family: 'Star Wars', sans-serif;
+        font-size: 10px;
+        color: gold;
+    }
+
+
+    .cards {
+        width: 200px;
+        height: 300px;
+        background-position: 50% 50%;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.5s;
+        padding: 5px;
+    }
+
+
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        margin: 10px 0 10px 0;
+    }
+
+    .footer-logo {
+        font-family: 'Star Wars', sans-serif;
+        font-size: 10px;
+        font-weight: 500;
+    
+    }
+    
+    .copyright{
+        font-size: 15px;
+    }
+}
